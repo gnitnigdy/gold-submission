@@ -3,14 +3,18 @@ import CustomNavbar from "../component/customnavbar";
 import Hero from "../component/hero";
 import OurServices from "../component/ourservices";
 import WhyUs from "../component/whyus";
+import CtaBanner from "../component/ctabanner";
+import LandingFooter from "../component/landingfooter";
 function Landing() {
   return (
-    <header>
+    <>
       <CustomNavbar />
       <Hero />
       <OurServices />
       <WhyUs />
-    </header>
+      <CtaBanner />
+      <LandingFooter />
+    </>
   );
 }
 export default Landing;

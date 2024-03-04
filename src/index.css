@@ -102,3 +102,10 @@ body {
     font-size: 4.4rem;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

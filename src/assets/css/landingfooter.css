@@ -1,0 +1,26 @@
+#web-footer {
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.text-custom-700 {
+  font-weight: 700;
+}
+
+.footer-navigation {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.footer-logo {
+  background-color: #0d28a6;
+  width: 10rem;
+  height: 3.4rem;
+  color: #0d28a6;
+}

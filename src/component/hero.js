@@ -4,7 +4,7 @@ import CarHero from "../assets/img/img.car.png";
 
 function Hero() {
   return (
-    <section id="hero-section">
+    <header id="hero-section">
       <div className="container-fluid">
         <div className="row pt-5 align-items-center">
           <div id="hero-text" className="col-md-6 col-lg-6">
@@ -27,7 +27,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 }
 

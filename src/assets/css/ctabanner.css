@@ -1,0 +1,21 @@
+#cta-banner-section .container {
+  background-color: #0d28a6;
+  color: #fff;
+  border-radius: 1.25rem;
+}
+
+.cta-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.cta-paragraph {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.cta-button {
+  font-size: 1.8rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.4rem;
+}
