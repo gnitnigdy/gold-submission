@@ -5,6 +5,8 @@ import OurServices from "../component/ourservices";
 import WhyUs from "../component/whyus";
 import CtaBanner from "../component/ctabanner";
 import LandingFooter from "../component/landingfooter";
+import FaqSection from "../component/faqsection";
+import TestimonialSliders from "../component/testimonialsliders";
 function Landing() {
   return (
     <>
@@ -12,7 +14,9 @@ function Landing() {
       <Hero />
       <OurServices />
       <WhyUs />
+      <TestimonialSliders />
       <CtaBanner />
+      <FaqSection />
       <LandingFooter />
     </>
   );
