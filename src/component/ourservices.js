@@ -5,7 +5,7 @@ import imgServices from "../assets/img/img.service.png";
 function OurServices() {
   return (
     <section id="our-services-section">
-      <div className="container mt-5">
+      <div className="container mt-per-section">
         <div className="row align-items-center">
           <div className="col-12 col-md-6">
             <img

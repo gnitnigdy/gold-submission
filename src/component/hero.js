@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import CarHero from "../assets/img/img.car.png";
-
 function Hero() {
   return (
     <header id="hero-section">
@@ -22,7 +21,7 @@ function Hero() {
               </button>
             </div>
           </div>
-          <div className="col-md-6 col-lg-6 px-0">
+          <div className="col-md-6 col-lg-6 px-0 text-end">
             <img src={CarHero} alt="car-hero" className="img-fluid hero-img" />
           </div>
         </div>

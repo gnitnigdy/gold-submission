@@ -4,15 +4,15 @@
 }
 
 .service-subtitle {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.5;
 }
 
 .service-paragraph {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .custom-ul-list {

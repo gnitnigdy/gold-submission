@@ -10,7 +10,7 @@ import icTwitter from "../assets/icon/icon_twitter.svg";
 function LandingFooter() {
   return (
     <footer id="web-footer">
-      <div className="container mt-5">
+      <div className="container mt-per-section">
         <div className="row">
           <div className="col-md-12 col-lg-3 text-custom-700">
             <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>

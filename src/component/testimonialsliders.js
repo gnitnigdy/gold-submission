@@ -1,170 +1,97 @@
+import "../assets/css/testimonialsliders.css";
+import imgMan from "../assets/img/img.man.png";
+import imgWoman from "../assets/img/img.woman.png";
 function TestimonialSliders() {
   return (
     <section id="testimonials">
-      <div className="container-fluid mt-5">
+      <div className="container-fluid mt-per-section">
         <div className="row text-center">
-          <h3>Testimonials</h3>
-          <p>Berbagai review positif dari pelanggan kami</p>
+          <h3 className="section-title">Testimonials</h3>
+          <p className="section-subtitle">
+            Berbagai review positif dari pelanggan kami
+          </p>
         </div>
-        <div id="carouselExample" className="carousel slide">
+        <div
+          id="carouselExample"
+          className="carousel slide"
+          data-bs-touch="true"
+        >
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="row align-items-center">
-                <div className="col-lg-4">
+                <div className="col-md-4 col-lg-4">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgMan}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 d-none d-lg-block">
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgWoman}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 d-none d-lg-block">
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgMan}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <div className="row align-items-center">
-                <div className="col-lg-4">
-                  <div className="card slider-card">
-                    <div className="card-body">
-                      <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
-                          <img
-                            src="/node_modules/assets/img/img_photo.png"
-                            alt="img-testi-1"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="col-12 col-md-9 text-center text-md-start">
-                          <p>⭐⭐⭐⭐⭐</p>
-                          <p>
-                            “Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod”
-                          </p>
-                          <p>John Dee 32, Bromo</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card slider-card">
-                    <div className="card-body">
-                      <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
-                          <img
-                            src="/node_modules/assets/img/img_photo.png"
-                            alt="img-testi-1"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div className="col-12 col-md-9 text-center text-md-start">
-                          <p>⭐⭐⭐⭐⭐</p>
-                          <p>
-                            “Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod”
-                          </p>
-                          <p>John Dee 32, Bromo</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4 d-none d-lg-block">
-                  <div className="card slider-card">
-                    <div className="card-body">
-                      <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
-                          <img
-                            src="/node_modules/assets/img/img_photo.png"
-                            alt="img-testi-1"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="col-12 col-md-9 text-center text-md-start">
-                          <p>⭐⭐⭐⭐⭐</p>
-                          <p>
-                            “Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod”
-                          </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
@@ -174,79 +101,161 @@ function TestimonialSliders() {
             </div>
             <div className="carousel-item">
               <div className="row align-items-center">
-                <div className="col-lg-4">
+                <div className="col-md-4 col-lg-4">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgWoman}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 d-none d-lg-block">
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgMan}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 d-none d-lg-block">
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
                   <div className="card slider-card">
-                    <div className="card-body">
+                    <div className="card-body d-flex">
                       <div className="row align-items-center">
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-3 text-center">
                           <img
-                            src="/node_modules/assets/img/img_photo.png"
+                            src={imgWoman}
                             alt="img-testi-1"
                             className="img-fluid"
                           />
                         </div>
                         <div className="col-12 col-md-9 text-center text-md-start">
                           <p>⭐⭐⭐⭐⭐</p>
-                          <p>
+                          <p className="testi-text">
                             “Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod lorem ipsum dolor sit amet,
                             consectetur adipiscing elit, sed do eiusmod lorem
                             ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod”
                           </p>
-                          <p>John Dee 32, Bromo</p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
+              <div className="row align-items-center">
+                <div className="col-md-4 col-lg-4">
+                  <div className="card slider-card">
+                    <div className="card-body d-flex">
+                      <div className="row align-items-center">
+                        <div className="col-12 col-md-3 text-center">
+                          <img
+                            src={imgMan}
+                            alt="img-testi-1"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="col-12 col-md-9 text-center text-md-start">
+                          <p>⭐⭐⭐⭐⭐</p>
+                          <p className="testi-text">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod”
+                          </p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
+                  <div className="card slider-card">
+                    <div className="card-body d-flex">
+                      <div className="row align-items-center">
+                        <div className="col-12 col-md-3 text-center">
+                          <img
+                            src={imgWoman}
+                            alt="img-testi-1"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="col-12 col-md-9 text-center text-md-start">
+                          <p>⭐⭐⭐⭐⭐</p>
+                          <p className="testi-text">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod”
+                          </p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-4 col-lg-4 d-none d-md-block">
+                  <div className="card slider-card">
+                    <div className="card-body d-flex">
+                      <div className="row align-items-center">
+                        <div className="col-12 col-md-3 text-center">
+                          <img
+                            src={imgMan}
+                            alt="img-testi-1"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="col-12 col-md-9 text-center text-md-start">
+                          <p>⭐⭐⭐⭐⭐</p>
+                          <p className="testi-text">
+                            “Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod”
+                          </p>
+                          <p className="reviewer">John Dee 32, Bromo</p>
                         </div>
                       </div>
                     </div>
@@ -261,6 +270,7 @@ function TestimonialSliders() {
             type="button"
             data-bs-target="#carouselExample"
             data-bs-slide="prev"
+            className="btn btn-success me-2 slider-button-2"
           >
             &lt;
           </button>
@@ -268,6 +278,7 @@ function TestimonialSliders() {
             type="button"
             data-bs-target="#carouselExample"
             data-bs-slide="next"
+            className="btn btn-success slider-button"
           >
             &gt;
           </button>

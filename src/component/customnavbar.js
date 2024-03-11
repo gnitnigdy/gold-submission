@@ -52,12 +52,12 @@ function CustomNavbar() {
                 </a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" href="#testimony-section">
+                <a className="nav-link" href="#testimonials">
                   Testimony
                 </a>
               </li>
               <li className="nav-item mx-3">
-                <a className="nav-link" href="#faq-section">
+                <a className="nav-link" href="#faqs">
                   FAQ
                 </a>
               </li>

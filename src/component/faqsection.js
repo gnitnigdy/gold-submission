@@ -2,16 +2,18 @@ import "../assets/css/faqsection.css";
 
 function FaqSection() {
   return (
-    <section className="faq-section">
-      <div className="container mt-5">
+    <section id="faqs" className="faq-section">
+      <div className="container mt-per-section">
         <div className="row">
           <div className="col-12 col-lg-5 text-center text-lg-start">
-            <h2>Frequently Asked Question</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2 className="section-title">Frequently Asked Question</h2>
+            <p className="section-subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
           </div>
           <div className="col-12 col-lg-7">
             <div className="accordion" id="faq-accordion">
-              <div className="accordion-item mb-3">
+              <div className="accordion-item mb-4">
                 <h2 className="accordion-header" id="first-faq">
                   <button
                     className="accordion-button collapsed"
@@ -36,7 +38,7 @@ function FaqSection() {
                   </div>
                 </div>
               </div>
-              <div className="accordion-item mb-3">
+              <div className="accordion-item mb-4">
                 <h2 className="accordion-header" id="second-faq">
                   <button
                     className="accordion-button collapsed"
@@ -61,7 +63,7 @@ function FaqSection() {
                   </div>
                 </div>
               </div>
-              <div className="accordion-item mb-3">
+              <div className="accordion-item mb-4">
                 <h2 className="accordion-header" id="third-faq">
                   <button
                     className="accordion-button collapsed"
@@ -86,7 +88,7 @@ function FaqSection() {
                   </div>
                 </div>
               </div>
-              <div className="accordion-item mb-3">
+              <div className="accordion-item mb-4">
                 <h2 className="accordion-header" id="fourth-faq">
                   <button
                     className="accordion-button collapsed"
@@ -111,7 +113,7 @@ function FaqSection() {
                   </div>
                 </div>
               </div>
-              <div className="accordion-item mb-3">
+              <div className="accordion-item mb-4">
                 <h2 className="accordion-header" id="fifth-faq">
                   <button
                     className="accordion-button collapsed"

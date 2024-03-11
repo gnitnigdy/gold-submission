@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
@@ -14,6 +14,10 @@ body {
   font-weight: 400;
   line-height: 1;
   color: black;
+}
+
+.mt-per-section {
+  margin-top: 10rem;
 }
 
 /* Start of Navbar Section */
@@ -59,23 +63,24 @@ body {
 .hero-title {
   font-weight: 700;
   line-height: 5.4rem;
-  font-size: 6rem;
+  font-size: 3.6rem;
 }
 .hero-subtitle {
   font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
 }
 #hero-button {
   width: 18rem;
   height: 4.8rem;
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2;
   padding: 0.8rem 1.2rem;
   background-color: #5cb85f;
 }
 .hero-img {
-  min-width: 100%;
+  min-width: 90%;
 }
 #hero-text {
   padding-left: 8rem !important;
@@ -105,6 +110,10 @@ body {
 
 @media only screen and (max-width: 576px) {
   section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  footer {
     margin-left: 1rem;
     margin-right: 1rem;
   }

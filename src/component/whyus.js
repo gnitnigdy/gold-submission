@@ -9,7 +9,7 @@ import icProfessional from "../assets/icon/icon_professional.svg";
 function WhyUs() {
   return (
     <section id="why-us-section">
-      <div className="container mt-5">
+      <div className="container mt-per-section">
         <div className="row text-center text-lg-start">
           <h3 className="whyus-title">Why Us?</h3>
         </div>

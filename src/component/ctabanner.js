@@ -5,7 +5,7 @@ import "../assets/css/ctabanner.css";
 function CtaBanner() {
   return (
     <section id="cta-banner-section" className="cta--banner">
-      <div className="container mt-5">
+      <div className="container mt-per-section">
         <div className="row">
           <div className="col-12 text-center">
             <h2 className="mt-5 cta-title">
